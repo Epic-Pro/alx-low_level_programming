@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - main function
  * Return: Always 0
  */
 
 int main(void)
 {
-	int 1;
+	int i;
+
 	for (i = 0; i < 10; i++)
 		printf("%d", i);
 	printf("\n");
