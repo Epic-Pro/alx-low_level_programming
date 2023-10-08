@@ -4,10 +4,10 @@
 #include <fcntl.h>
 
 /**
- * read_textfile - Reads a text file then prints it to the POSIX Standard Output
+ * read_textfile - Reads a text file then prints it
  * @filename: the read filename 
  * @letters: the number of letters that are read
- * Return: p - The number of bytes read and printed, 0 when if NULL or if it cannot be opened
+ * Return: _write - for number of bytes read and printed, 0 if NULL or fails
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
